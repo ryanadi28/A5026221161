@@ -62,13 +62,23 @@ Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
 Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
-
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
-
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@keranjangbelanja');
+Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KeranjangController@batal');
+Route::post('/keranjangbelanja/storeee','App\Http\Controllers\KeranjangController@storeee');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 
 
 
 
-
+//route CRUD
+Route::get('/mobil','App\Http\Controllers\MobilController@indexmobil');
+Route::get('/mobil/tambahh','App\Http\Controllers\MobilController@tambahh');
+Route::post('/mobil/storee','App\Http\Controllers\MobilController@storee');
+Route::get('/mobil/editt/{id}','App\Http\Controllers\MobilController@editt');
+Route::post('/mobil/updatee','App\Http\Controllers\MobilController@updatee');
+Route::get('/mobil/hapuss/{id}','App\Http\Controllers\MobilController@hapuss');
+Route::get('/mobil/carii','App\Http\Controllers\MobilController@carii');
+Route::get('/mobil/vieww/{id}','App\Http\Controllers\MobilController@vieww');

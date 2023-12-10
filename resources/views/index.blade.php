@@ -4,7 +4,7 @@
 
 @section('konten')
 
-	<h2>www.malasngoding.com</h2>
+
 	<h3>Data Pegawai</h3>
 
 	<a href="/pegawai/tambah" class="btn btn-primary"> + Tambah Pegawai Baru</a>
