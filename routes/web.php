@@ -82,3 +82,7 @@ Route::post('/mobil/updatee','App\Http\Controllers\MobilController@updatee');
 Route::get('/mobil/hapuss/{id}','App\Http\Controllers\MobilController@hapuss');
 Route::get('/mobil/carii','App\Http\Controllers\MobilController@carii');
 Route::get('/mobil/vieww/{id}','App\Http\Controllers\MobilController@vieww');
+
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index');
+Route::get('/nilaikuliah/tambahnilaikuliah','App\Http\Controllers\NilaiKuliahController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
