@@ -21,21 +21,21 @@
 		<div class="form-group row">
             <label for="nama" class="col-sm-2 col-form-label">Merk_Mobil</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="merkmobil" name="Merk_Mobil" required value="{{ $m->merkmobil }}">
+              <input type="text" class="form-control" required="required" name="Merk_Mobil"  value="{{ $m->merkmobil }}">
             </div>
           </div>
 
           <div class="form-group row">
             <label for="jabatan" class="col-sm-2 col-form-label">Stock_Mobil</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="stockmobil" name="Stock_Mobil" required value="{{ $m->stockmobil }}">
+              <input type="text" class="form-control" required="required" name="Stock_Mobil" value="{{ $m->stockmobil }}">
             </div>
           </div>
 
           <div class="form-group row">
             <label for="umur" class="col-sm-2 col-form-label">Status_Tersedia</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="tersedia" name="Status_Tersedia" required value="{{ $m->tersedia }}">
+              <input type="text" class="form-control" required="required" name="Status_Tersedia" value="{{ $m->tersedia }}">
             </div>
           </div>
 

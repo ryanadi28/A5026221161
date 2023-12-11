@@ -86,3 +86,6 @@ Route::get('/mobil/vieww/{id}','App\Http\Controllers\MobilController@vieww');
 Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index');
 Route::get('/nilaikuliah/tambahnilaikuliah','App\Http\Controllers\NilaiKuliahController@tambah');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
+
+Route::get('/kategori','App\Http\Controllers\KategoriController@indexkategori');
+Route::get('/kategori/kirim','App\Http\Controllers\KategoriController@kirimkategori');

@@ -57,6 +57,7 @@ class MobilController extends Controller
 	{
 		// update data pegawai
 		DB::table('mobil')->where('kodemobil',$request->id)->update([
+            'kodemobil' => $request->Kode_Mobil,
 			'merkmobil' => $request->Merk_Mobil,
 			'stockmobil' => $request->Stock_Mobil,
 			'tersedia' => $request->Status_Tersedia

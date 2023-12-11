@@ -31,7 +31,7 @@
 			<td>{{ $m->kodemobil }}</td>
 			<td>{{ $m->merkmobil }}</td>
 			<td>{{ $m->stockmobil }}</td>
-			<td> <input class="form-check-input" type="checkbox" value="" {{ $m->tersedia === 'Y' ? 'checked' : '' }} id="flexCheckDefault"></td>
+			<td> <input disabled class="form-check-input" type="checkbox" value="" {{ $m->tersedia === 'Y' ? 'checked' : '' }} id="flexCheckDefault"></td>
 			<td>
 
 				<a href="/mobil/vieww/{{ $m->kodemobil }}" class="btn btn-success">View</a>

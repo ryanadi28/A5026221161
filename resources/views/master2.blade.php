@@ -33,8 +33,10 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/pegawai">Pegawai</a>
+              <a class="dropdown-item" href="/tugas1">Tugas 1</a>
+              <a class="dropdown-item" href="/tugas2">Tugas 2</a>
               <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
+              <a class="dropdown-item" href="#">Link 2</a>
             </div>
           </li>
         </ul>
